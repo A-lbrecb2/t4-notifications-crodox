@@ -6,10 +6,11 @@ import { RouterModule } from '@angular/router';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatButtonModule } from '@angular/material/button';
 import { AppComponent } from './app.component';
-
+import { NotificationsComponent } from '../../src/app/notifications/notifications.component';
 @NgModule({
   declarations: [
     AppComponent,
+    NotificationsComponent,
   ],
   imports: [
     BrowserModule,
